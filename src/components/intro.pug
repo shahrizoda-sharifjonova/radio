@@ -1,0 +1,23 @@
+mixin intro()
+    .intro
+        .intro__body
+            .intro__video
+                video(src="../files/vd.mov" muted loop autoplay)  
+            .intro__logo
+                .intro__logo-img 
+                    img(src="@img/logo.png", alt="" draggable="false")
+                .intro__logo-pause 
+                    img(src="@img/play.svg", alt="" draggable="false")
+            .intro__row 
+                .intro__left 
+                    .intro__googlePlay 
+                        img(src="@img/google-play-2.svg", alt="" draggable="false")
+                    .intro__appStore
+                        img(src="@img/app-store-2.svg", alt="" draggable="false")
+                .intro__right 
+                    a(href="https://vk.com").intro__link
+                        img(src="@img/vk-2.svg", alt="" draggable="false")
+                    a(href="https://vk.com").intro__link
+                        img(src="@img/vk-2.svg", alt="" draggable="false")
+                    a(href="https://vk.com").intro__link
+                        img(src="@img/vk-2.svg", alt="" draggable="false")
